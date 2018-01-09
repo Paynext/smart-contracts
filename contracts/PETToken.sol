@@ -2,7 +2,7 @@ pragma solidity ^0.4.17;
 
 import 'zeppelin-solidity/contracts/token/StandardToken.sol';
 
-contract PETToken is BasicToken {
+contract PETToken is StandardToken {
     string public name = 'Paynext';
     string public symbol = 'PET';
     uint public decimals = 8;
